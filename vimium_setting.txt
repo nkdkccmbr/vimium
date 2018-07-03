@@ -1,0 +1,20 @@
+# Use Emacs-style bindings only.
+unmapAll
+
+map n scrollDown
+map p scrollUp
+map b goBack
+map f goForward
+map c createTab
+map x removeTab
+map l LinkHints.activateMode
+map s enterFindMode
+map r performBackwardsFind
+map o Vomnibar.activate
+
+# Help
+map <c-h> showHelp
+
+
+w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia
+g: http://www.google.com/search?q=%s Google
